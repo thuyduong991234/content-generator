@@ -80,7 +80,7 @@ function App() {
         <div className={`max-w-2xl mx-auto bg-opacity-90 sm:p-8 xs:p-1 rounded-xl`}>
           <div className="divide-y divide-gray-200">
             <div className={`py-8 text-base leading-6 space-y-4 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'} sm:text-lg sm:leading-7`}>
-              <div className='bg-cover bg-center bg-[url(/public/title.png)] h-[7rem] sm:mt-[-3rem] sm:mb-[2rem] xs:mt-[-6rem] xs:mb-[-1.5rem]' />
+              <div className={`bg-cover bg-center sm:bg-[url(/public/title.png)] xs:bg-[url(/public/title-xs.png)] h-[7rem] sm:mt-[-3rem] sm:mb-[2rem] xs:mt-[-4.5rem] xs:mb-[-1.5rem]`} />
                 <div className="flex flex-col">
                   <label className="leading-loose headline">Chọn Icon</label>
                   <input
